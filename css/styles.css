@@ -1,30 +1,46 @@
-.topline {
-    width:1440px;
-    height:72px;
+.header {
 }
-.navig-logo1 {
-    text-decoration: none;
-    color: #4D5AE5;
-    text-align: left;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    width: 44px;
-    height: 22px;
+.header-navigation {
 }
-.navig-logo2 {
-    text-decoration: none;
-    color: #2E2F42;
-    text-align: left;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    width: 44px;
-    height: 22px;
+.header-logo-a {
 }
-.navig-logo1:focus,
-.navig-logo1:hover {
-    text-decoration: underline #404BBF;
+.header-logo-b {
 }
-.navig-logo2:focus,
-.navig-logo2:hover {
-    text-decoration: underline #404BBF;
+.header-list {
+}
+.header-item {
+}
+.header-link {
+}
+.header-mail {
+}
+.header-tel {
+}
+.hero {
+}
+.hero-title {
+}
+.hero-button {
+}
+.secondary {
+}
+.secondary-title {
+}
+.secondary-list {
+}
+.secondary-item {
+}
+.secondary-item-title {
+}
+.secondary-item-description {
+}
+.secondary-photo {
+}
+.footer {
+}
+.footer-logoa {
+}
+.footer-logob {
+}
+.footer-description {
 }
