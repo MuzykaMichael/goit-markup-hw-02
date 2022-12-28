@@ -1,0 +1,30 @@
+.topline {
+    width:1440px;
+    height:72px;
+}
+.navig-logo1 {
+    text-decoration: none;
+    color: #4D5AE5;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    width: 44px;
+    height: 22px;
+}
+.navig-logo2 {
+    text-decoration: none;
+    color: #2E2F42;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    width: 44px;
+    height: 22px;
+}
+.navig-logo1:focus,
+.navig-logo1:hover {
+    text-decoration: underline #404BBF;
+}
+.navig-logo2:focus,
+.navig-logo2:hover {
+    text-decoration: underline #404BBF;
+}
