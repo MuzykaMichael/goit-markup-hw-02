@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
-        </style>
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,8 +14,10 @@
 <body>
     <header class="header">
         <nav class="header-navigation">
-        <a href="/" class="header-logo-a">Web</a>
-        <a href="/" class="header-logo-b">Studio</a>
+            <ul class="header-logo">
+                <li><a href="/" class="header-logo-a">Web</a></li>
+                <li><a href="/" class="header-logo-b">Studio</a></li>
+            </ul>
             <ul class="header-list">
                 <li class="header-item"><a href="./index.html" class="header-link">Studio</a></li>
                 <li class="header-item"><a href="/" class="header-link">Portfolio</a></li>
@@ -23,7 +25,7 @@
             </ul>
         </nav>
         <address>
-            <ul>
+            <ul class="header-list">
                 <li><a href="mailto:info@devstudio.com" class="header-mail">info@devstudio.com</a></li>
                 <li><a href="tel:+110001111111" class="header-tel">+11 (000) 111-11-11</a></li>
             </ul>
@@ -31,8 +33,8 @@
     </header>
     <main>
         <section class="portfolio">
+            <button type="button" class="portfolio-main-button">All</button>
             <ul class="portfolio-list">
-                <li class="portfolio-item"><button type="button" class="portfolio-button">All</button></li>
                 <li class="portfolio-item"><button type="button" class="portfolio-button">Web Site</button></li>
                 <li class="portfolio-item"><button type="button" class="portfolio-button">App</button></li>
                 <li class="portfolio-item"><button type="button" class="portfolio-button">Design</button></li>
@@ -108,8 +110,10 @@
         </section>
     </main>
     <footer class="footer">
-        <a href="./index.html" class="footer-logoa">Web</a>
-        <a href="./index.html" class="footer-logob">Studio</a>
+        <ul class="footer-logo">
+            <li><a href="./index.html" class="footer-logo-a">Web</a></li>
+            <li><a href="./index.html" class="footer-logo-b">Studio</a></li>
+        </ul>
         <p class="footer-description">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
     </footer>
     
