@@ -250,7 +250,10 @@
 
 }
 .team-list {
-    list-style-type:none;
+    list-style-type: none;
+}
+.team-item-link {
+    text-decoration:none;
 }
 .team-item-title {
 /* Header 3 */
@@ -334,7 +337,7 @@
     list-style-type:none;
 }
 .gallery-item-header {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -354,7 +357,7 @@
     border-radius: 2px;
 }
 .gallery-item-description {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
