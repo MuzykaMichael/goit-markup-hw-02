@@ -301,18 +301,6 @@
 .portfolio {
     background-color: #FFFFFF;
 }
-.portfolio-main-button {
-    background: #404BBF;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-}
 .portfolio-list {
     list-style-type: none;
 }
@@ -323,18 +311,26 @@
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     cursor: pointer;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #4D5AE5;
 }
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
 .gallery {
     background-color: #FFFFFF;
 }
 .gallery-list {
     list-style-type:none;
+}
+.gallery-item-link {
+    text-decoration:none;
 }
 .gallery-item-header {
     font-family: 'Roboto', sans-serif;
