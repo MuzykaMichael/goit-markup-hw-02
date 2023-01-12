@@ -31,11 +31,6 @@
     text-transform: uppercase;
     color: #2E2F42;
 }
-.header-logo:hover,
-.header-logo:focus {
-    text-decoration: underline #404BBF;
-    border-radius: 2px;
-}
 .header-list {
     list-style-type:none;
 }
@@ -76,14 +71,6 @@
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
-}
-.header-mail:hover,
-.header-tel:hover,
-.header-mail:focus,
-.header-tel:focus {
-    color: #404BBF;
-    text-decoration: underline #404BBF;
-    border-radius: 2px;
 }
 
 .hero {
@@ -209,11 +196,6 @@
     text-transform: uppercase;
     color: #4D5AE5;
 }
-.footer-logo:hover,
-.footer-logo:focus {
-    text-decoration: underline #404BBF;
-    border-radius: 2px;
-}
 .footer-description {
     font-family: 'Roboto';
     font-style: normal;
@@ -325,9 +307,6 @@
     color: #FFFFFF;
     cursor:pointer;
 }
-.gallery {
-    background-color: #FFFFFF;
-}
 .gallery-list {
     list-style-type:none;
 }
@@ -350,11 +329,6 @@
     color: #2E2F42;
 
 }
-.gallery-item-header:hover,
-.gallery-item-header:focus {
-    text-decoration: underline #404BBF;
-    border-radius: 2px;
-}
 .gallery-item-description {
     font-family: 'Roboto',sans-serif;
     font-style: normal;
@@ -365,10 +339,4 @@
     letter-spacing: 0.02em;
 /* SLATE */
     color: #434455;
-}
-.gallery-item-description:hover,
-.gallery-item-description:focus {
-    color: #404BBF;
-    text-decoration: underline #404BBF;
-    border-radius: 2px;
 }
